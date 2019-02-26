@@ -5,13 +5,13 @@
     * docker image rm
     * docker rmi [id]
 
-### Docker Build
+## Docker Build
     * docker build -t [image name] [image path]
     * docker build -t linux-play docker/linux-play
     * docker build -t node-play docker/node-play
 
 
-### Docker Container
+## Docker Container
     * docker container ls
     * docker container ls -a
     * docker container stop [id]
@@ -21,18 +21,18 @@
     * docker run --name node-play-container -p 3333:3000 -d node-play
 
 
-### Docker Process
+## Docker Process
     * docker ps
 
-### Docker Network
+## Docker Network
     * docker inspect [container name]
     * docker inspect node-play-container
 
-### Docker Shell
+## Docker Shell
     * docker exec -it [container name] shell
     * docker exec -it node-play-container /bin/sh
 
-### Docker Logs
+## Docker Logs
     * docker logs node-play-container
     * docker logs node-play-container -f
 
